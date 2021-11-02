@@ -1,0 +1,302 @@
+
+body{
+    max-width: 2000px;
+    margin:auto;
+}
+
+header{
+    display: block;
+    box-sizing: border-box;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(217, 218, 220);
+    border-bottom-width: 1px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 25px 0px 10px;
+
+}
+
+.spotify-logo{
+    display: inline-block;
+    background-image:url('https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png');
+    background-size: 100%;
+    line-height: 24px;
+    width: 200px;
+    height:100px;
+    background-repeat: no-repeat;  
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+
+button{
+    border-radius: 500px ;
+    border-style: solid;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Helvetica,Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    height: 48px;
+    width: 450px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    padding: 18px 14px 14px 14px;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    margin-bottom: 10px;;
+}
+
+.logosocial{
+    color:white;
+}
+
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+.Facebook{
+    background-color: rgb(59,89,152);
+    border-color:transparent;
+}
+
+.Facebook:hover{
+    background-color: #3a61b3;
+}
+
+
+.Apple{
+    background-color: #000;
+    border-color:transparent;
+}
+
+.Apple:hover{
+    background-color: #333;
+}
+
+.Google{
+    background-color:white;
+    color:#616467;
+    border-color:rgb(204, 204, 204)
+}
+
+.Google:hover{
+    background-color: #616467;
+    color: #fff;
+    border-color: transparent;
+}
+
+.divider{
+    width:450px;
+    text-align: center;
+    justify-content: center;
+}
+
+.or-divider{
+    overflow:hidden;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 0;
+
+}
+
+.or-divider:before,
+.or-divider:after {
+    background-color: #d9dadc;;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.or-divider:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.or-divider:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.form-area{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    line-height: 24px;
+    
+}
+
+label{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    /* width: 450px; */
+}
+
+#login-username, #password{
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    height: 40px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    width:450px;
+}
+
+
+.reminder, .toremember{
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    width: 450px;
+}
+
+.log-in-section{
+    display: flex;
+    width:450px;
+    justify-content: space-between;
+}
+
+.reminder{
+    margin-bottom: 40px;
+}
+
+.greenlink{
+    color: #616467;
+    text-decoration: underline;
+}
+
+.greenlink:hover {
+    color:#1da64d;
+}
+
+.toremember{
+    color:#616467;
+    font-size: 16px;
+    align-self: center;
+}
+
+#rm{
+    cursor: pointer;
+}
+
+.log-in-btn{
+    background-color:#15883e ;
+    width: 210px;
+    border-color: transparent;
+}
+
+.log-in-btn:hover{
+    background-color: #1db954;
+}
+
+hr{
+    width: 450px;
+    background-color: #d9dadc;;
+    display: inline-block;
+    height: 1px;
+    margin-bottom:40px;
+}
+
+.account{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.sign-in-btn{
+    color: #616467;
+    background-color: transparent;
+    border: solid rgb(204, 204, 204);
+}
+
+.sign-in-btn:hover{
+    color:white;
+    background-color:#616467;
+    border-color:transparent;
+}
+
+/* Customize the label (the container) */
+.rm {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    font-size: 16px;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+  }
+  
+  /* Hide the browser's default checkbox */
+  .rm input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+
+  .checkmark {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #c1c3c6;
+    border-radius: 4px;
+  }
+  
+  .rm input:checked ~ .checkmark {
+    background-color: #1ed760;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  .rm input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .rm .checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
